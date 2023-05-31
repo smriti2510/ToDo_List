@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 export default function Header(props) {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar-expand-lg navbar navbar-dark bg-dark ">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">{props.title}</a>
           <buthrefn className="navbar-hrefggler" type="buthrefn" data-bs-hrefggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="hrefggle navigation">
@@ -12,11 +12,11 @@ export default function Header(props) {
           </buthrefn>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auhref mb-2 mb-lg-0">
-              <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#">About</a>
         </li>  
             </ul>
             { props.searchBar? <form className="d-flex">
